@@ -1,6 +1,7 @@
 .hero{
     
     padding-block-start: 16px;
+    padding-block-end: 14px;
 }
 
 .hero-description{
@@ -11,8 +12,9 @@
 .hero-image {
     text-align: center;
 }
-.hero-social{
-    padding-block-end: 24px;
+.hero-image img{
+    max-inline-size: 100%;
+    block-size: auto;
 }
 
 .hero h1 {
@@ -27,8 +29,9 @@
 
 @media screen and (min-width: 768px) {
     .hero{ 
-        border: 1px solid red;
-        display: flex;    
+        
+        display: flex;   
+
     }
     .hero-description{ 
          order: 1;
@@ -46,6 +49,7 @@
     .hero-image img{ 
         inline-size: 500px;
         block-size: 504px;
+        padding-block-end: 50px;
             
     }
 }

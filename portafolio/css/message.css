@@ -1,0 +1,27 @@
+.personal-message{
+    max-inline-size: 900px;
+    padding-block-end: 40px;
+    padding-block-start: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.message-text{
+    font:var(--headline5);
+    text-align: center;
+}
+.message-text.normal{
+    font:var(--headline5);
+    font-weight: normal;
+}
+
+@media screen and (min-width: 768px) {
+
+    .personal-message{
+        padding-block-end: 200px;
+        padding-block-start: 200px;
+    }
+    .message-text.normal{
+        font:var(--mesaggeXl);
+    }
+}

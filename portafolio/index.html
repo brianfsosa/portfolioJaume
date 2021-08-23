@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
@@ -15,7 +18,7 @@
     <div class="wrapper">
         <header class="header">
             <img src="./images/logo.png"   alt="Logo principal portafolio">
-            <nav class="menu">
+            <nav aria-label="main-navigation" class="menu">
                 <ul>
                     <li>
                         <a class="is-active" href="#main">hola</a>
@@ -43,16 +46,107 @@
     
                 <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
                 
-                <div class="hero-social"> 
+                <div class="social"> 
                     <a class="button-icon" href="tel:262546546546"><img src='./icons/icon-phone.svg'></a>
                     <a class="button-icon" href="tel:262546546546"><img src='./icons/icon-github.svg'></a>
                     <a class="button-icon" href="tel:262546546546"><img src='./icons/icon-mail.svg'></a>
                 </div>
+                
                 <a href="https://asdasd" class="button">Descargar Culliculum</a>
+                   
             </div>
             
         </section>
-        
+
+        <section aria-label="main" class="main">
+            <div class="personal-message">
+                <p class="message-text normal">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+                <p class="message-text">Aquí hay algunos que me gustaría compartir.</p>
+                <a href="#" class="button-arrow" ><img src="./icons/arrow-down.svg" alt="flecha hacia abajo"></a>
+              </div>
+
+            <div class="proyects">
+                  <div class="proyects-image">
+                      <img src="./images/proyect1.png" alt="imagen del proyecto leonidas esteban">
+                  </div>
+  
+                  <div class="proyects-description">
+                      <a class="proyects-title" target="_blank" href="https://leonidasesteban.com">leonidasesteban.com</a>
+                      <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
+                          tus habilidades como desarrollador Front-End.</p>
+                          <a href="github.com/brianfsosa" class="button is-secondary">ver código</a>
+                          <a href="https://leonidasesteban.com" class="button">ver proyecto</a>
+                  </div>
+            </div>
+            <div class="testimonial-container">
+                  <div class="testimonial-card">
+                      <img class="testimonial-image" src="./images/testimonial1.png" width="64px" height="64px" alt="imagen testimonio 1">
+                      <p class="testimonial-text">"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
+                      <p class="testimonial-caption">LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+                  </div>
+              </div>
+
+            <div class="proyects">
+                <div class="proyects-image">
+                    <img src="./images/proyect2.png" alt="imagen del proyecto marvol">
+                </div>
+
+                <div class="proyects-description">
+                    <a class="proyects-title" target="_blank" href="#">MARVOL</a>
+                    <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+                        <a href="github.com/brianfsosa" class="button is-secondary">ver código</a>
+                        <a href="#" class="button">ver proyecto</a>
+                </div>
+            </div>
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <img class="testimonial-image" src="./images/testimonial2.png" width="64px" height="64px" alt="imagen testimonio 2">
+                    <p class="testimonial-text">"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+                    <p class="testimonial-caption">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+                </div>
+            </div>
+            <div class="proyects">
+                <div class="proyects-image">
+                    <img src="./images/proyect3.png" alt="imagen del proyecto NETNET">
+                </div>
+
+                <div class="proyects-description">
+                    <a class="proyects-title" target="_blank" href="#">NETNET</a>
+                    <p>Películas y series ilimitadas y mucho más.
+                        Disfruta donde quieras. Cancela cuando quieras.</p>
+                        <a href="github.com/brianfsosa" class="button is-secondary">ver código</a>
+                        <a href="https://leonidasesteban.com" class="button">ver proyecto</a>
+                </div>
+            </div>
+        <form action="">
+            <label for="form-name">Nombre Completo</label>
+            <input required name="name" id="form-name" type="text" placeholder="Juan">
+            <label for="form-name">Nombre Completo</label>
+            <input required name="name" id="form-name" type="email" placeholder="Juan@gmail.com">
+            <label for="form-name">Nombre Completo</label>
+            <textarea required name="message" id="form-message" placeholder="Mensaje" cols="30" rows="7"></textarea>
+            <input name="name" id="form-name" type="text" placeholder="Juan">
+        </form>
+        <footer class="footer">
+            <div class="footer-logo">
+                <img src="./images/logo.png"   alt="Logo principal portafolio">
+            </div>
+            <div class="social"> 
+                <a class="button-icon" href="tel:262546546546"><img src='./icons/icon-phone.svg'></a>
+                <a class="button-icon" href="tel:262546546546"><img src='./icons/icon-github.svg'></a>
+                <a class="button-icon" href="tel:262546546546"><img src='./icons/icon-mail.svg'></a>
+            </div>
+            <div class="footer-copyright">
+                <P>
+                    Hecho con ♥ de Jaume.
+                </P>
+                <P>
+                    Copyright 2021 - Todos los derechos reservados.
+                </P>
+            </div>
+            
+        </footer>
+    </section>
     </div>
 </body>
 </html>

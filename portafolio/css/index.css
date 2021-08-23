@@ -4,8 +4,15 @@
 @import './hero.css';
 @import './wrapper.css';
 @import './menu.css';
+@import './message.css';
+@import './button-arrow.css';
+@import './testimonial.css';
+@import './proyects.css';
+@import './footer.css';
+@import './social.css';
 :root{
     --fontBase:'Poppins', sans-serif;
+    --fontSecondary:'Oxygen', sans-serif;
     --headline1:bold 95px/153px var(--fontBase);
     --headline2:bold 59px/95px var(--fontBase);
     --headline3:bold 48px/77px var(--fontBase);
@@ -15,6 +22,7 @@
     --body2: 14px/22px var(--fontBase);
     --button:bold  14px/22px var(--fontBase);
     --caption: 12px/19px var(--fontBase);
+    --mesaggeXl:34px/55px var(--fontSecondary);
     --gradient:radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
     --primary:#310A90;
     --secondary:#42E2B8;
@@ -24,6 +32,7 @@ body{
     background: var(--gradient);
     min-block-size: 100vh;
     font: var(--body1);
-    color: var(--primary)
+    color: var(--primary);
+    margin:0;
 }
 
