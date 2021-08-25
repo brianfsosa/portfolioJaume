@@ -1,4 +1,4 @@
-.footer{
+.footer-content{
     color: var(--white);
     text-align: center;
 }
@@ -16,7 +16,7 @@
     .footer-logo{
         display: block;
     }
-    .footer {
+    .footer-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -32,7 +32,9 @@
     .footer-copyright {
         display: flex;
         gap: 8px;
-        padding-block-start: 40px;
-        padding-block-end: 40px;
+    }
+    .footer{
+        margin-block-start: 40px;
+        margin-block-end: 40px;
     }
 }

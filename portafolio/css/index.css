@@ -7,9 +7,11 @@
 @import './message.css';
 @import './button-arrow.css';
 @import './testimonial.css';
-@import './proyects.css';
+@import './projects.css';
 @import './footer.css';
 @import './social.css';
+@import './form.css';
+@import './title.css';
 :root{
     --fontBase:'Poppins', sans-serif;
     --fontSecondary:'Oxygen', sans-serif;
