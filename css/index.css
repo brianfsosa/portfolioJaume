@@ -29,7 +29,10 @@
     --primary:#310A90;
     --secondary:#42E2B8;
     --white:white;
+    scroll-behavior: smooth;
 }
+
+
 body{
     background: var(--gradient);
     min-block-size: 100vh;
